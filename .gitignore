@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Data directories (don't commit datasets)
+data/
+*.tar
+*.zip
+*.tar.gz
+
+# Model checkpoints (too large for git)
+models/*.pth
+models/*.pt
+models/*.ckpt
+*.pth
+*.pt
+*.ckpt
+
+# Results and logs
+results/
+logs/
+*.out
+*.err
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+
+# Slurm
+slurm-*.out
+slurm-*.err
+
+# Keep directory structure but ignore contents
+!data/.gitkeep
+!models/.gitkeep
+!results/.gitkeep
+!logs/.gitkeep
