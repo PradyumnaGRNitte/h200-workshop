@@ -241,8 +241,7 @@ rm -rf ~/my_project/data/
 If you use the H200 cluster for research, please acknowledge:
 
 ```
-This research was supported by the H200 GPU cluster at 
-NMAM Institute of Technology, Nitte Deemed to be University.
+This research was supported by the H200 GPU cluster at CoE, NMAM Institute of Technology, Nitte (Deemed to be University).
 ```
 
 ---
